@@ -74,3 +74,5 @@ C:\3 курс\ПрограмМод\pr6\sommer_al\obj\Debug\sommer_al.exe
 C:\3 курс\ПрограмМод\pr6\sommer_al\obj\Debug\sommer_al.pdb
 C:\3 курс\ПрограмМод\pr6\sommer_al\obj\Debug\Pages\Employee.g.cs
 C:\3 курс\ПрограмМод\pr6\sommer_al\obj\Debug\Pages\Employee.baml
+C:\3 курс\ПрограмМод\pr6\sommer_al\obj\Debug\Pages\Registration.g.cs
+C:\3 курс\ПрограмМод\pr6\sommer_al\obj\Debug\Pages\Registration.baml

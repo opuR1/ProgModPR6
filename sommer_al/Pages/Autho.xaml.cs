@@ -29,9 +29,9 @@ namespace sommer_al.Pages
             click = 0;
         }
 
-        private void btnEnterGuest_Click(object sender, RoutedEventArgs e)
+        private void btnRegister_Click(object sender, RoutedEventArgs e)
         {
-            NavigationService.Navigate(new Client(null, null));
+            NavigationService.Navigate(new Registration());
         }
         private void GenerateCapctcha()
         {
