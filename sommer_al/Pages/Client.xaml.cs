@@ -12,6 +12,8 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using sommer_al.Models;
+using sommer_al.Services;
 
 namespace sommer_al.Pages
 {
@@ -20,7 +22,7 @@ namespace sommer_al.Pages
     /// </summary>
     public partial class Client : Page
     {
-        public Client()
+        public Client(Users user, string role)
         {
             InitializeComponent();
         }

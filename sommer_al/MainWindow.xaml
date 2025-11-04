@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:sommer_al"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800" Icon="/Logo.png">
+        Title="MainWindow" Height="710" Width="1000" MinHeight="710" WindowStartupLocation="CenterScreen" Icon="/Logo.png">
     <Grid RenderTransformOrigin="0.5,0.5">
         <Grid.RowDefinitions>
             <RowDefinition Height="60"/>
@@ -13,7 +13,7 @@
         </Grid.RowDefinitions>
 
         <Grid Grid.Row="0" Background="#FF76E383">
-            <Button x:Name="btn_back" Content="Назад" HorizontalAlignment="Left" Margin="668,16,0,0" VerticalAlignment="Top" Height="34" Width="122" Background="Black" Foreground="White" Click="btn_back_Click" />
+            <Button x:Name="btn_back" Content="Назад" HorizontalAlignment="Right" Margin="668,16,0,0" VerticalAlignment="Top" Height="34" Width="122" Background="Black" Foreground="White" Click="btn_back_Click" />
             <Image HorizontalAlignment="Left" Height="60" Margin="10,5,0,0" Grid.Row="2" VerticalAlignment="Top" Width="64" Source="/Logo.png"/>
         </Grid>
         <Frame x:Name="FrmMain" Grid.Row="1" NavigationUIVisibility="Hidden" ContentRendered="FrmMain_ContentRendered" />
