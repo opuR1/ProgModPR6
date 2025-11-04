@@ -47,7 +47,7 @@ namespace sommer_al.Pages
         {
             click += 1;
             string login = tbLogin.Text.Trim();
-            string password = tbPassword.Text.Trim();
+            string password = tbPassword.Password.Trim();
             bool isEmployee = chkIsEmployee.IsChecked ?? false;
             int RoleType = isEmployee == true ? 1 : 2;
             string HashedPassword = Hash.HashPassword(password);

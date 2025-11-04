@@ -17,7 +17,7 @@
             <TextBlock Text="Email"/>
             <TextBox x:Name="tbLogin"/>
             <TextBlock Text="Пароль"/>
-            <TextBox x:Name="tbPassword"/>
+            <PasswordBox x:Name="tbPassword"/>
             <CheckBox x:Name="chkIsEmployee" Content="Сотрудник?" Margin="5" FontFamily="Comic Sans MS" FontSize="14"/>
             <TextBlock x:Name="tblCaptcha" Text="Капча"/>
             <TextBox x:Name="tbCaptcha"/>
